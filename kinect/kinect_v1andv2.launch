@@ -1,0 +1,33 @@
+<!-- Sample launch file for using Kinect v1 and v2 cameras with default configurations -->
+<launch>
+  <arg name="camera1"       default="kinect_v1" />
+  <arg name="camera_type1"  default="v1" /> <!-- Type of camera -->
+  <arg name="usb_port_id1"  default="" /> <!-- USB "Bus#-Port#" -->
+  <arg name="camera2"       default="kinect_v2" />
+  <arg name="camera_type2"  default="v2" /> <!-- Type of camera -->
+  <arg name="usb_port_id2"  default="" /> <!-- USB "Bus#-Port#" -->
+
+  <arg name="manager" value="camera_nodelet_manager" /> <!-- Single nodelet manager for all cameras -->
+  <node pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" output="screen"/>
+
+  <!-- User must include the .xml file for each camera with unique values for "camera" and 
+       either the "serial_no" or "usb_port_id" of the camera.
+       "camera" should be a user friendly string that follows the ROS Names convention. -->
+  <group ns="$(arg camera1)">
+    <include file="/home/e4e/workspace/wi18/kinect/freenect.launch.xml">
+      <arg name="camera"       value="$(arg camera1)" />
+      <arg name="manager"	value="$(arg manager)" />
+    </include>
+  </group> 
+
+  <group ns="$(arg camera2)">
+    <include file="/home/e4e/workspace/wi18/kinect/kinect2_bridge.launch.xml">
+      <arg name="base_name"       value="$(arg camera2)" />
+      <arg name="depth_method"	  value="cpu" /> <!-- was default -->
+      <arg name="reg_method"	  value="cpu" /> <!-- was default -->
+      <arg name="nodelet_manager"	value="$(arg manager)" />
+    </include>
+  </group>
+</launch>
+<!-- Serial No: 3511804166 camera 2-->
+<!-- SN:3511803504  camera 1-->
