@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=c++11 -O3 -DNDEBUG   CMakeFiles/test_point_cloud.dir/test/test_point_cloud.o  -o bin/test_point_cloud -rdynamic lib/libopengv.a lib/librandom_generators.a lib/libopengv.a 
