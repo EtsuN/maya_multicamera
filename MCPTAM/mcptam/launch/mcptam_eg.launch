@@ -1,0 +1,35 @@
+<launch>
+
+<arg name="group_name"		default="cameras_1,2"/>
+
+<!-- mcptam node -->
+<node name="mcptam" pkg="mcptam" type="mcptam" clear_params="true" output="screen">
+  <rosparam command="load" file="$(find mcptam)/groups/$(arg group_name).yaml" />
+  <remap from="reset" to="mcptam/reset" />
+  <param name="image_transport" type="string" value="compressed"/>
+
+  <param name="get_pose_separately" type="bool" value="false" />
+
+
+
+<!-- EDITTED -->
+
+<!--  <param name="info_topic" type="string" value=""/>
+      <param name="image_topic" type="string" value="image_color"/>
+
+  <remap from="rgb/camera_info" to="camera_info" />
+  <remap from="rgb/image_raw" to="image_raw" />
+  <remap from="kinect_v2/sd/camera_info" to="camera_info" />
+  <remap from="kinect_v2/sd/image_color_rect" to="image_raw" />
+
+-->
+<!--
+  <param name="camera_pose_file" type="string" value="$(find mcptam)/poses/poses_example.dat" />
+-->
+  <param name="mkf_distance_mean_diff_fraction" type="double" value="0.5" /> 
+  <param name="mm_max_scaled_mkf_dist" type="double" value="0.3" />
+  <param name="mm_outlier_multiplier" type="double" value="1.1" />
+  <param name="mm_init_cov_thresh" type="double" value="1.0" />
+
+</node>
+</launch>

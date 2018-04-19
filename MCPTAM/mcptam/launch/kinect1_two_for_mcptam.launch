@@ -1,0 +1,33 @@
+<!-- Sample launch file for using Kinect v1 and v2 cameras with default configurations -->
+<launch>
+  <arg name="camera1"       default="camera1" /><!-- the unbroken one-->
+  <arg name="device_id1"  default="B00363716224036B" /> <!-- Type of camera -->
+  <arg name="usb_port_id1"  default="" /> <!-- USB "Bus#-Port#" -->
+  <arg name="camera2"       default="camera2" />
+  <arg name="device_id2"  default="A00361812237040A" /> <!-- Type of camera -->
+  <arg name="usb_port_id2"  default="" /> <!-- USB "Bus#-Port#" -->
+
+  <arg name="manager" value="camera_nodelet_manager" /> <!-- Single nodelet manager for all cameras -->
+  <node pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" output="screen" />
+
+  <include file="/home/e4e/workspace/wi18/kinect/freenect.launch.xml">
+    <arg name="camera"       value="$(arg camera1)" />
+    <arg name="manager"	value="$(arg manager)" />
+    <arg name="device_id"	default="$(arg device_id1)" /> 
+  </include>
+
+  <include file="/home/e4e/workspace/wi18/kinect/freenect.launch.xml">
+    <arg name="camera"       value="$(arg camera2)" />
+    <arg name="manager"	value="$(arg manager)" />
+    <arg name="device_id"	default="$(arg device_id2)" /> 
+  </include>
+
+  <!--
+  <remap from="/camera1/rgb/camera_info"	to="/camera1/camera_info" />
+  <remap from="/camera1/rgb/image_raw" to="/camera1/image_raw" />
+  <remap from="/camera1/rgb/set_camera_info" to="/camera1/set_camera_info" />
+  <remap from="/camera2/rgb/camera_info"	to="/camera2/camera_info" />
+  <remap from="/camera2/rgb/image_raw" to="/camera2/image_raw" />
+  <remap from="/camera2/rgb/set_camera_info" to="/camera2/set_camera_info" />
+-->
+</launch>
