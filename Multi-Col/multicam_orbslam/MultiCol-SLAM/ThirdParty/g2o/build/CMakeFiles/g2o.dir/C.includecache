@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/e4e/workspace/multicam_orbslam/multicam_orbslam/MultiCol-SLAM/ThirdParty/g2o/g2o/stuff/os_specific.c
+os_specific.h
+/home/e4e/workspace/multicam_orbslam/multicam_orbslam/MultiCol-SLAM/ThirdParty/g2o/g2o/stuff/os_specific.h
+
+/home/e4e/workspace/multicam_orbslam/multicam_orbslam/MultiCol-SLAM/ThirdParty/g2o/g2o/stuff/os_specific.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+sys/time.h
+-
+sys/time.h
+-
+
