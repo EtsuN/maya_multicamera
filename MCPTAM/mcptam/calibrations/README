@@ -1,0 +1,2 @@
+Use the usb camera's camera info to launch the calibrator and save the yaml file to this directory.
+Then move the yaml file to ~/.ros/camera_info/ and change the name to rgb_[device_id].yaml and also the camera name to rgb_[device_id] inside the yaml file.
