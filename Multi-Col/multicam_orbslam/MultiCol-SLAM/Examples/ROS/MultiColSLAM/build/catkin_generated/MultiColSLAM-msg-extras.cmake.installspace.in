@@ -1,0 +1,2 @@
+set(MultiColSLAM_MESSAGE_FILES "msg/Image_msg.msg")
+set(MultiColSLAM_SERVICE_FILES "")
