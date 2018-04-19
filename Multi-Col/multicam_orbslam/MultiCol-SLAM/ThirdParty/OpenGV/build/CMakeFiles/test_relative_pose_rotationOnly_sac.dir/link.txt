@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=c++11 -O3 -DNDEBUG   CMakeFiles/test_relative_pose_rotationOnly_sac.dir/test/test_relative_pose_rotationOnly_sac.o  -o bin/test_relative_pose_rotationOnly_sac -rdynamic lib/libopengv.a lib/librandom_generators.a lib/libopengv.a 

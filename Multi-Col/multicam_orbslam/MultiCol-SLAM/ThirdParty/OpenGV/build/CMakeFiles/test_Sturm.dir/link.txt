@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=c++11 -O3 -DNDEBUG   CMakeFiles/test_Sturm.dir/test/test_Sturm.o  -o bin/test_Sturm -rdynamic lib/libopengv.a lib/librandom_generators.a lib/libopengv.a 
