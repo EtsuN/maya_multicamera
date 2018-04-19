@@ -1,0 +1,1 @@
+Please move the mcptam directory into the src folder of a catkin workspace, and catkin_make to run the SLAM algorithm.
