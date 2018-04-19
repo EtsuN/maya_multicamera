@@ -1,0 +1,20 @@
+<package>
+  <description brief="MultiColSLAM">
+
+     MultiColSLAM
+
+  </description>
+  <author>e4e</author>
+  <license>GPLv3</license>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="cv_bridge"/>
+  <depend package="message_generation"/>
+  <depend package="message_runtime"/>
+
+</package>
+
+
+
