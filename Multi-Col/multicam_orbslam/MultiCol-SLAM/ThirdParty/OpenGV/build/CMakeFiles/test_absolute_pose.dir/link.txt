@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=c++11 -O3 -DNDEBUG   CMakeFiles/test_absolute_pose.dir/test/test_absolute_pose.o  -o bin/test_absolute_pose -rdynamic lib/libopengv.a lib/librandom_generators.a lib/libopengv.a 
