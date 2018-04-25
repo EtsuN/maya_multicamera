@@ -111,17 +111,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -132,6 +121,17 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/apps/CMakeFiles/progress.marks
-	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/all
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/apps/visualisation/CMakeFiles/progress.marks
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/visualisation/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/clean
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/visualisation/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,18 +174,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/visualisation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/visualisation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
 	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+apps/visualisation/CMakeFiles/opencv_visualisation.dir/rule:
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f CMakeFiles/Makefile2 apps/visualisation/CMakeFiles/opencv_visualisation.dir/rule
+.PHONY : apps/visualisation/CMakeFiles/opencv_visualisation.dir/rule
+
+# Convenience name for target.
+opencv_visualisation: apps/visualisation/CMakeFiles/opencv_visualisation.dir/rule
+
+.PHONY : opencv_visualisation
+
+# fast build rule for target.
+opencv_visualisation/fast:
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f apps/visualisation/CMakeFiles/opencv_visualisation.dir/build.make apps/visualisation/CMakeFiles/opencv_visualisation.dir/build
+.PHONY : opencv_visualisation/fast
+
+opencv_visualisation.o: opencv_visualisation.cpp.o
+
+.PHONY : opencv_visualisation.o
+
+# target to build an object file
+opencv_visualisation.cpp.o:
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f apps/visualisation/CMakeFiles/opencv_visualisation.dir/build.make apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o
+.PHONY : opencv_visualisation.cpp.o
+
+opencv_visualisation.i: opencv_visualisation.cpp.i
+
+.PHONY : opencv_visualisation.i
+
+# target to preprocess a source file
+opencv_visualisation.cpp.i:
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f apps/visualisation/CMakeFiles/opencv_visualisation.dir/build.make apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.i
+.PHONY : opencv_visualisation.cpp.i
+
+opencv_visualisation.s: opencv_visualisation.cpp.s
+
+.PHONY : opencv_visualisation.s
+
+# target to generate assembly for a file
+opencv_visualisation.cpp.s:
+	cd /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release && $(MAKE) -f apps/visualisation/CMakeFiles/opencv_visualisation.dir/build.make apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.s
+.PHONY : opencv_visualisation.cpp.s
 
 # Help Target
 help:
@@ -198,10 +240,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... install/strip"
+	@echo "... opencv_visualisation"
 	@echo "... install/local"
+	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... install"
+	@echo "... opencv_visualisation.o"
+	@echo "... opencv_visualisation.i"
+	@echo "... opencv_visualisation.s"
 .PHONY : help
 
 
