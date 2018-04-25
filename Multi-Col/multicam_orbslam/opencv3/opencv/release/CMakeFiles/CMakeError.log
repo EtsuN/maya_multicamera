@@ -1,0 +1,502 @@
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/cmake/checks/cxx11.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fbf1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6fbf1.dir/build.make CMakeFiles/cmTC_6fbf1.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6fbf1.dir/cxx11.cpp.o
+/usr/bin/c++     -fPIE   -o CMakeFiles/cmTC_6fbf1.dir/cxx11.cpp.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/cmake/checks/cxx11.cpp
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/cmake/checks/cxx11.cpp:4:2: error: #error "C++11 is not supported"
+ #error "C++11 is not supported"
+  ^
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/cmake/checks/cxx11.cpp: In function ‘int main()’:
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/cmake/checks/cxx11.cpp:11:10: error: ‘res’ does not name a type
+     auto res = test();
+          ^
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/cmake/checks/cxx11.cpp:12:12: error: ‘res’ was not declared in this scope
+     return res;
+            ^
+CMakeFiles/cmTC_6fbf1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6fbf1.dir/cxx11.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_6fbf1.dir/cxx11.cpp.o] Error 1
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6fbf1/fast' failed
+make: *** [cmTC_6fbf1/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd0c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd0c7.dir/build.make CMakeFiles/cmTC_bd0c7.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd0c7.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_bd0c7.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_bd0c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd0c7.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_bd0c7.dir/src.cxx.o  -o cmTC_bd0c7 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49f13/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49f13.dir/build.make CMakeFiles/cmTC_49f13.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49f13.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_49f13.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_49f13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f13.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_49f13.dir/src.cxx.o  -o cmTC_49f13 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc296/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc296.dir/build.make CMakeFiles/cmTC_cc296.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc296.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_cc296.dir/src.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_cc296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc296.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_cc296.dir/src.c.o  -o cmTC_cc296 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9ce3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9ce3.dir/build.make CMakeFiles/cmTC_d9ce3.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9ce3.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_d9ce3.dir/src.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_d9ce3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9ce3.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_d9ce3.dir/src.c.o  -o cmTC_d9ce3 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a903f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a903f.dir/build.make CMakeFiles/cmTC_a903f.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a903f.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_a903f.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_a903f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a903f.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_a903f.dir/src.cxx.o  -o cmTC_a903f -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55171/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55171.dir/build.make CMakeFiles/cmTC_55171.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55171.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_55171.dir/src.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_55171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55171.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_55171.dir/src.c.o  -o cmTC_55171 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment  -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64172/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64172.dir/build.make CMakeFiles/cmTC_64172.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64172.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTC_64172.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
+Linking CXX executable cmTC_64172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64172.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_64172.dir/src.cxx.o  -o cmTC_64172 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment  -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40b28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40b28.dir/build.make CMakeFiles/cmTC_40b28.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40b28.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTC_40b28.dir/src.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
+Linking C executable cmTC_40b28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40b28.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_40b28.dir/src.c.o  -o cmTC_40b28 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a6fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a6fb.dir/build.make CMakeFiles/cmTC_5a6fb.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a6fb.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_5a6fb.dir/src.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_5a6fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a6fb.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_5a6fb.dir/src.c.o  -o cmTC_5a6fb -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa6b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa6b2.dir/build.make CMakeFiles/cmTC_aa6b2.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa6b2.dir/TestEndianess.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_aa6b2.dir/TestEndianess.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_aa6b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa6b2.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_aa6b2.dir/TestEndianess.c.o  -o cmTC_aa6b2 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e130e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e130e.dir/build.make CMakeFiles/cmTC_e130e.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e130e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e130e.dir/CheckIncludeFile.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_e130e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e130e.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e130e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e130e/fast' failed
+make: *** [cmTC_e130e/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8c3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8c3c.dir/build.make CMakeFiles/cmTC_f8c3c.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8c3c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f8c3c.dir/CheckIncludeFile.c.o   -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_f8c3c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f8c3c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f8c3c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f8c3c/fast' failed
+make: *** [cmTC_f8c3c/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72d10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72d10.dir/build.make CMakeFiles/cmTC_72d10.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72d10.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTC_72d10.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_72d10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72d10.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_72d10.dir/src.cxx.o  -o cmTC_72d10 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df65c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df65c.dir/build.make CMakeFiles/cmTC_df65c.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df65c.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_df65c.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_df65c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df65c.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_df65c.dir/src.cxx.o  -o cmTC_df65c -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36b1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36b1b.dir/build.make CMakeFiles/cmTC_36b1b.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36b1b.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-unused-const-variable -o CMakeFiles/cmTC_36b1b.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’
+Linking CXX executable cmTC_36b1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36b1b.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_36b1b.dir/src.cxx.o  -o cmTC_36b1b -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c279e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c279e.dir/build.make CMakeFiles/cmTC_c279e.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c279e.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_c279e.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_c279e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c279e.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_c279e.dir/src.cxx.o  -o cmTC_c279e -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02ed9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02ed9.dir/build.make CMakeFiles/cmTC_02ed9.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02ed9.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE   -Wno-enum-compare-switch -o CMakeFiles/cmTC_02ed9.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_02ed9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ed9.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_02ed9.dir/src.cxx.o  -o cmTC_02ed9 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96505/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96505.dir/build.make CMakeFiles/cmTC_96505.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96505.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden   -O3 -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_96505.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_96505
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96505.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden   -O3 -DNDEBUG    -Wl,--gc-sections   CMakeFiles/cmTC_96505.dir/src.cxx.o  -o cmTC_96505 -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1285c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1285c.dir/build.make CMakeFiles/cmTC_1285c.dir/build
+make[1]: Entering directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1285c.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG -fPIE   -Wno-unused-private-field -o CMakeFiles/cmTC_1285c.dir/src.cxx.o -c /home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_1285c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1285c.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_1285c.dir/src.cxx.o  -o cmTC_1285c -rdynamic 
+make[1]: Leaving directory '/home/e4e/workspace/multicam_orbslam/opencv3/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
